@@ -1,0 +1,6 @@
+echo "# just-for-test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/tzhangfan4/just-for-test.git
+git push -u origin master
